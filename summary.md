@@ -1,4 +1,4 @@
-- Internet
+- Internetworking
   - We are trying to build host-to-host packet delivery service
   -  Message transimission
   -  Host addressing and address translation
@@ -11,7 +11,8 @@
     - Subnetting (VLSM)
     - Supernetting (CIDR)
     - IPv6
-- What is End-to-End?
+    
+- End-to-End
   - How does UDP work?
     - What is a port?
     - How does server learn about client's port?
@@ -20,8 +21,9 @@
   - What is a difference between TCP and UDP?
   - What does End-to-End argument tell us?
   - What does SYN stand for?
- - Congestion control
-    -Flow control vs Congestion control
+  
+- Congestion control
+  - Flow control vs Congestion control
     - Reservation based vs Feedback based congestion control
     - Router centric vs Host centric congestion control
       - Router states
@@ -38,5 +40,7 @@
       - Router based congestion Avoidance
         - Random early detection
       - Source based congestion avoidance
+ 
 - Fair queing
+
 - Network security
