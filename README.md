@@ -4,12 +4,7 @@
 # [End-to-End protocols](/end_to_end.md)
 # [Congestion control](/congestion.md)
 # Fair queueing
-# Applications
 # Security
-# Performance
-# Quality of Service
-# Peer-to-Peer networks
-# Wireless networks
 
 # Vocabulary
 
