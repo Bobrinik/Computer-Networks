@@ -43,4 +43,19 @@
  
 - Fair queing
 
+
 - Network security
+  - Aspects:
+    - Confidentiality
+    - Authentication
+    - Message integrity
+    - Access and availability
+  - Cryptography
+    - Symmetric key cryptography
+    - Public key cryptography
+      - RSA algorithm
+  - Authentication with symmetric key and public keys
+  - Trusted intermediaries
+    - Key distribution center
+      - Session keys
+    - Certificate authority
