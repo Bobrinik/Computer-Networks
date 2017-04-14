@@ -1,0 +1,42 @@
+- Internet
+  - We are trying to build host-to-host packet delivery service
+  -  Message transimission
+  -  Host addressing and address translation
+  -  Fragmentation and reassembly
+  -  Error reporting / control messages
+  -  Dynamic configuration
+  - IPv4 address exhaustion
+    - DHCP-like protocols
+    - NAT (network address translation)
+    - Subnetting (VLSM)
+    - Supernetting (CIDR)
+    - IPv6
+- What is End-to-End?
+  - How does UDP work?
+    - What is a port?
+    - How does server learn about client's port?
+  - How does TCP work?
+    - How is TCP's sliding window different from direct-link sliding window?
+  - What is a difference between TCP and UDP?
+  - What does End-to-End argument tell us?
+  - What does SYN stand for?
+ - Congestion control
+    -Flow control vs Congestion control
+    - Reservation based vs Feedback based congestion control
+    - Router centric vs Host centric congestion control
+      - Router states
+    - Per-flow congestion control feedback
+    - TCP congestion control
+      - Host solutions
+      - Additive increase/ Multiplicative decrease
+      - Fast retransmit and Duplicate ACK
+      - Fast retransmit and fast recovery
+      - TCP start-up behavor
+      - Slow start
+      - Congestion avoidance
+      - Decbit (destination experiencing congestion bit)
+      - Router based congestion Avoidance
+        - Random early detection
+      - Source based congestion avoidance
+- Fair queing
+- Network security
