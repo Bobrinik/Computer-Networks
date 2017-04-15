@@ -3,7 +3,7 @@
 # [Internet](/internetworking.md)
 # [End-to-End protocols](/end_to_end.md)
 # [Congestion control](/congestion.md)
-# Fair queueing
+# [Fair queueing](/fair_q.md)
 # Security
 
 # Vocabulary
