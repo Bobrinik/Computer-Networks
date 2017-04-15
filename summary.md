@@ -42,7 +42,11 @@
       - Source based congestion avoidance
  
 - Fair queing
-
+  - Queiueing disciplines
+  - FIFO
+    - Priority queueing
+  - FQ
+    - WFQ (weighted fair queuing)
 
 - Network security
   - Aspects:
