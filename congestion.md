@@ -3,7 +3,7 @@
 
 
 ## Outline
--Flow control vs Congestion control
+- Flow control vs Congestion control
 - Reservation based vs Feedback based congestion control
 - Router centric vs Host centric congestion control
 	- Router states
