@@ -80,8 +80,14 @@ Idea behind TCP congestion control is to give each host a way to determine appro
 
 ## Congestion avoidance
 
-- Decbit (Destination Experiencing Congestion Bit) 
+- DEC bit (Destination Experiencing Congestion Bit) 
 	- Router that experiences congestions sets bit to 1 in a packet
-	- Other routers that do not experience congestion will forward this packet with the bit set. It kind off tells that there is some congestion on a route.
+	- Other routers that do not experience congestion will forward this packet with the bit set. It kind off tells that there is some congestion on a route
+	- Routers identify congestion and hosts are deciding what to do with this information
+		- Destination puts congestion bit into ACK and sends it to source
+			- If source get less then 50% of last window has experienced congestion, we increase CongestionWindow by One
+			- If 50% and more, then we increase by 0.875
 	- length of a queue is in EXAM 
-- RED
+- RED (Random Early Detction)
+	- The basic idea is to drop packets fairly when we have a congestion happening
+	- 
