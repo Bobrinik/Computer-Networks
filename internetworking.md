@@ -17,6 +17,7 @@
 	- IPv6
 
 <hr>
+
 ## Message transmission
 When we transmit messages, we need to include destination of messages. For example in datagram connection, our packet has a destination header and each switch uses its forwarding table to decide on which port to pass this packet.
 
